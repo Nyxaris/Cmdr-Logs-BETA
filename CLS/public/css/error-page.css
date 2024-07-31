@@ -1,0 +1,55 @@
+/* Общее оформление страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Оформление контейнера */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Оформление заголовка */
+h1 {
+    font-size: 96px;
+    margin: 0;
+    color: #dc3545;
+}
+
+/* Оформление текста */
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Оформление кнопки */
+.auth-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
